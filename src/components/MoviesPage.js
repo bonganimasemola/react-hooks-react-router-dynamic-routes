@@ -9,8 +9,6 @@ function MoviesPage({ movies }) {
   return (
     <div>
       <MoviesList movies={movies} />
-
-      {/* Adding code to show a message to the user to select a movie if they haven't yet */}
       <Route exact path={match.url}>
         <h3>Choose a movie from the list above</h3>
       </Route>
